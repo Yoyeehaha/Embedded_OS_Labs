@@ -1,0 +1,46 @@
+# STM32CubeIDE / Eclipse metadata
+.metadata/
+.settings/
+.project
+.cproject
+.classpath
+
+# Build output
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# Generated STM32CubeIDE artifacts
+*.launch
+*.list
+*.mk
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiler outputs
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+
+# STM32CubeIDE / Eclipse temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
