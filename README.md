@@ -1,6 +1,6 @@
 # Embedded_OS_Labs
 
-這個專案整理了 STM32F407VG 開發版上的嵌入式作業系統實驗，主要使用 STM32CubeIDE 1.17.0 建立與維護。
+本 repository 彙整了嵌入式作業系統課程的各項實驗專案，主要以 STM32F407VG 開發版為硬體平台，並使用 STM32CubeIDE 1.17.0 進行開發、編譯與維護。專案內容涵蓋 FreeRTOS 任務設計、同步機制、外部中斷、檔案系統整合與周邊控制等主題，目標是建立完整的嵌入式系統實作與觀察基礎。
 
 ## 硬體與開發環境
 
@@ -10,9 +10,10 @@
 
 ## 專案結構
 
-- `Code_space/`：各個 Lab 的原始碼與 CubeIDE 專案
-- `Lab_Materials/`：課程與實驗相關素材
-- `Lab_Reports/`：實驗報告與整理文件
+- `Code_space/`：所有 Lab 的主要開發內容，每個 Lab 各自包含 CubeIDE 專案、`Core/`、`Drivers/`、`FreeRTOS/` 等原始碼與建置設定。
+- `Code_space/Lab_1` ~ `Code_space/Lab_5`：對應各次實驗的完整專案資料夾。
+- `Lab_Materials/`：課程講義、實驗參考資料與相關素材。
+- `Lab_Reports/`：實驗報告、整理文件與撰寫內容。
 
 ## 各 Lab 內容
 
@@ -35,6 +36,12 @@
 ### Lab 5 - FATFS、音訊播放與按鍵事件控制
 
 整合 FATFS、UART log、音訊播放與按鍵事件辨識，支援單擊、雙擊與長按等操作模式，並可進行播放/暫停、切歌與音量控制，同時將操作記錄寫入 log 檔。
+
+## 期末專案
+
+期末專案請參考：[Embedded_FinalProject](https://github.com/timchen1015/Embedded_FinalProject)
+
+此專案主要使用 OV7670 影像模組、ILI9341 LCD 與 STM32F407VG 開發版實作駕駛疲勞偵測系統，並延伸整合影像擷取、LCD 顯示與即時判斷流程，作為課程期末整合應用。
 
 ## 備註
 
