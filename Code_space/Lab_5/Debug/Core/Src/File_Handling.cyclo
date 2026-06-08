@@ -1,0 +1,4 @@
+../Core/Src/File_Handling.c:41:9:AUDIO_StorageParse	10
+../Core/Src/File_Handling.c:94:10:AUDIO_GetWavObjectNumber	2
+../Core/Src/File_Handling.c:100:6:Mount_SD	2
+../Core/Src/File_Handling.c:111:6:Unmount_SD	2
